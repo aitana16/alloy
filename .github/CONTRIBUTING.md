@@ -7,8 +7,7 @@ In Q1 2020 (i.e., now) FINOS is conducting a pilot with member organizations int
 #### Shared Modeling in Alloy
 During the pilot, modelers will collaborate using Alloy to build shared models. Examples of the types of models that might be modeled during the pilot include:
 * FX options
-* RFQ
-* ESG Data
+* Commodities Reference Data
 
 ### Suggest Modeling Use Cases
 If you have suggestions or ideas for modeling use cases for which Alloy may be appropriate, we'd love to hear your ideas -- send a note with your suggestion to the [Alloy General List](alloy@finos.org).
@@ -18,26 +17,51 @@ If you have suggestions or ideas for modeling use cases for which Alloy may be a
 Suggesting topics you think should be included in this documentation site is a great, easy way to get involved with Alloy. A good way of a suggesting a topic for the docs site is by [opening an issue in our Github repo](https://github.com/finos/purealloy/issues/new/choose). Ideas are also welcome via the [Alloy General List](alloy@finos.org).
 
 #### Make Suggested Edits and Adds in the Documentation Site
-We welcome your help building out the documentation site. The process to make changes to the documentation site is the same as that which is described in the ["Making Code (Including Documentation) Changes" section](CONTRIBUTING.md#making-code-including-documentation-changes).
+We welcome your help building out the documentation site. The process to make changes to the documentation site is the same as that which is described in the ["Making Code (Including Documentation) Changes" section](https://alloy.finos.org/docs/contribute#making-code-including-documentation-changes).
 
 ### Propose Changes (Make Pull Requests) to Underlying PURE and Alloy Code (Phase 2)
 In phase 2, once the underlying code to PURE and Alloy have been open sourced into FINOS and source code made available to the public, the project will welcome pull requests to these code bases. 
 
 ## Making Code (Including Documentation) Changes
 ### Prerequisites
-#### Github ID
-Alloy makes use of both GitLab and GitHub infrastructure but, consistent with the FINOS infrastructure strategy, uses GitHub accounts as its default for authentication. All committers to FINOS repos, including pilot phase modelers, must have GitHub IDs.
+#### Github Account
+Alloy makes use of both GitLab and GitHub infrastructure but, consistent with the FINOS infrastructure strategy, uses GitHub accounts as its default for authentication. All committers to FINOS repos, including pilot phase modelers, must have a GitHub Account or [set up a GitHub account](https://odp.finos.org/docs/project-collaboration#github-account-setup) if they don't have one already.
+* _NOTE:_ [click here](https://git-scm.com/about) for more information on git and the git workflow
+
+#### GitHub Account Setup
+In order to configure your GitHub access, you will need to:
+
+1. [Create an account on GitHub.com](https://help.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account)
+2. [Set up a Git client locally](https://help.github.com/en/github/getting-started-with-github/set-up-git)
+3. Ensure that the Git client is configured with your `<username>@users.github.com` email address (you can do so using the `git config --list | grep user.email` command). If you use a different email address, you may face one of the following issues:
+
+     a) Your corporate firewall blocks Git activity, unless you are signed in with an `@<your company domain>` email address
+ 
+     b) GitHub forces you to set the email address as public, or it would reject push operations with the error `push declined due to email privacy restrictions`.
+     
+_Please email help@finos.org if you encounter any issues while setting up your GitHub account. The FINOS staff will be happy to assist you._
 
 #### FINOS Contributor License Agreement ("CLA")
 A Contributor License Agreement ("CLA") is a document that specifies how a project is allowed to use your contribution; they are commonly used in many open source projects.
 
 _NOTE:_ Commits and pull requests to FINOS project repositories, including Alloy, will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. See the [Contribute page on the FINOS Wiki for more information](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute). Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS ["CLA Bot" tool](https://github.com/finos/cla-bot). Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA. PRs submitted to the purealloy project cannot be accepted until you have a CLA in place with the Foundation. CLAs are also required for modelers participating in the pilot. 
 
+_NOTE:_ **Even if you have signed and are covered by a CLA, the [CLA Bot](https://github.com/finos/cla-bot) may block your Pull Requests if your Git client is configured with an email address other than your `<username>@users.github.com` email address**. (you can use the `git config --list | grep user.email` command to see which email address your git client is configured with). If your git client is not correctly configured, the CLA bot will not be able to parse your GitHub details and identify you, which will block your Pull Request. In order to fix this issue, please follow the instructions below.
+
+   1. Check your git client is configured with a user email `git config --list | grep email`
+   2. If the user email is missing, run the following command, substituting with your git commit email address `git config --global user.email email@example.com`
+   3. Make sure your git commit email is configured on GitHub by [Setting your Commit Email Address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
+   4. Then, amend the authors in your commit history by using `git commit --amend` to change your last commit.
+
+   Alternatively, use the slightly more complex `git reset --soft` and `git rebase` to checkout your changes, rewrite the commit history locally and (force) push changes to the downstream branch.
+
+   If you have any issues with the steps above, please email help@finos.org so we can help you resolve before reviewing and accepting your pull request.
+
 * Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org?subject=CLA)
 
 ### Overall Code Contribution Workflow
 
-1. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
+1. Read our [contribution guidelines](https://github.com/finos/alloy/blob/master/.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
 2. Fork the Alloy repository (<https://github.com/finos/purealloy/fork>)
 3. Create your feature branch (`git checkout -b feature/fooBar`)
 4. Make and test locally your changes
