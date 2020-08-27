@@ -2,12 +2,10 @@
 
 ## Ways of Contributing 
 ### Participate in the Pilot
-In Q1 2020 (i.e., now) FINOS is conducting a pilot with member organizations interested in evaluating PURE/Alloy. For more information about the pilot and how to generally get involved with Alloy see the [Alloy page on finos.org](https://www.finos.org/alloy).
+In Q1 2020 FINOS launched a pilot with FINOS member organizations interested in evaluating PURE/Alloy. For more information about the pilot and how to generally get involved with Alloy see the [Alloy page on finos.org](https://www.finos.org/alloy).
 
 #### Shared Modeling in Alloy
-During the pilot, modelers will collaborate using Alloy to build shared models. Examples of the types of models that might be modeled during the pilot include:
-* FX options
-* Commodities Reference Data
+During the pilot phase, modelers collaborated on Alloy to build shared models. Modeling occurred in two workstreams: **FX Options** and **Commodities Reference Data**. As of late August, the batch of modeling work undertaken by the FX Options Working Group has concluded, the Commodities Reference Data Working Group is nearing completion of their roadmap, and we expect that further working groups may use Alloy for data modeling in these and/or other areas after the first wave of code has been open sourced in late Summer/ early Fall.
 
 ### Suggest Modeling Use Cases
 If you have suggestions or ideas for modeling use cases for which Alloy may be appropriate, we'd love to hear your ideas -- send a note with your suggestion to the [Alloy General List](alloy@finos.org).
@@ -25,8 +23,12 @@ In phase 2, once the underlying code to PURE and Alloy have been open sourced in
 ## Making Code (Including Documentation) Changes
 ### Prerequisites
 #### Github Account
-Alloy makes use of both GitLab and GitHub infrastructure but, consistent with the FINOS infrastructure strategy, uses GitHub accounts as its default for authentication. All committers to FINOS repos, including pilot phase modelers, must have a GitHub Account or [set up a GitHub account](https://odp.finos.org/docs/project-collaboration#github-account-setup) if they don't have one already.
-* _NOTE:_ [click here](https://git-scm.com/about) for more information on git and the git workflow
+Alloy makes use of both GitLab and GitHub infrastructure but, consistent with the FINOS infrastructure strategy, uses GitHub accounts as its default for authentication. All committers to FINOS repos, including pilot phase modelers, must have a GitHub Account or - if they don't have one already - set up a GitHub account. 
+If you're looking for help or instructions on setting up a new GitHub account, please have a look at the [documentation]((https://odp.finos.org/docs/project-collaboration#github-account-setup).) that's available on the FINOS ODP project site. For reference, the [Open Developer Platform (ODP)](https://odp.finos.org/)is a FINOS project whose main goal is to provide and develop a collection of services, tools and best practices that deliver a secure and compliant collaboration across FINOS hosted projects. 
+* _NOTE:_ 
+    * [click here](https://git-scm.com/about) for more information on git and the git workflow
+    * [click here](https://guides.github.com/activities/hello-world/) for more information on GitHub
+    * [click here](https://about.gitlab.com/what-is-gitlab/) for more information on GitLab
 
 #### GitHub Account Setup
 In order to configure your GitHub access, you will need to:
