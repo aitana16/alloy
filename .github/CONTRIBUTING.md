@@ -23,8 +23,9 @@ In phase 2, once the underlying code to PURE and Alloy have been open sourced in
 ## Making Code (Including Documentation) Changes
 ### Prerequisites
 #### Github Account
-Alloy makes use of both GitLab and GitHub infrastructure but, consistent with the FINOS infrastructure strategy, uses GitHub accounts as its default for authentication. All committers to FINOS repos, including pilot phase modelers, must have a GitHub Account or - if they don't have one already - set up a GitHub account. 
-If you're looking for help or instructions on setting up a new GitHub account, please have a look at the [documentation]((https://odp.finos.org/docs/project-collaboration#github-account-setup).) that's available on the FINOS ODP project site. For reference, the [Open Developer Platform (ODP)](https://odp.finos.org/)is a FINOS project whose main goal is to provide and develop a collection of services, tools and best practices that deliver a secure and compliant collaboration across FINOS hosted projects. 
+Alloy makes use of both GitLab and GitHub infrastructure but, consistent with the FINOS infrastructure strategy, uses GitHub accounts as its default for authentication. All committers to FINOS repos, which includes modelers participating in the Alloy pilot working groups, must have a GitHub Account or - if they don't have one already - set up a GitHub account. 
+
+If you're looking for help or instructions on setting up a new GitHub account, please have a look at the [documentation](https://odp.finos.org/docs/project-collaboration#github-account-setup) that's available on the FINOS ODP project site. For reference, the [Open Developer Platform (ODP)](https://odp.finos.org/)is a FINOS project that focuses on providing and developing a collection of services, tools and best practices that deliver a secure and compliant collaboration across FINOS hosted projects. 
 * _NOTE:_ 
     * [click here](https://git-scm.com/about) for more information on git and the git workflow
     * [click here](https://guides.github.com/activities/hello-world/) for more information on GitHub
