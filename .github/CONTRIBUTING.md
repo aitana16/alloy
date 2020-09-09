@@ -1,11 +1,11 @@
 # Contributing to Alloy
 
 ## Ways of Contributing 
-### Participate in the Pilot
-In Q1 2020 FINOS launched a pilot with FINOS member organizations interested in evaluating PURE/Alloy. For more information about the pilot and how to generally get involved with Alloy see the [Alloy page on finos.org](https://www.finos.org/alloy).
+### Participate in the Pilot (January - September 2020) 
+In Q1 2020 FINOS launched a pilot with FINOS member organizations interested in evaluating PURE/Alloy that is expected to finalize in September 2020. For more information about how to generally get involved with Alloy see the [Alloy page on finos.org](https://www.finos.org/alloy).
 
-#### Shared Modeling in Alloy
-During the pilot phase, modelers collaborated on Alloy to build shared models. Modeling occurred in two workstreams: **FX Options** and **Commodities Reference Data**. As of late August, the batch of modeling work undertaken by the FX Options Working Group has concluded, the Commodities Reference Data Working Group is nearing completion of their roadmap, and we expect that further working groups may use Alloy for data modeling in these and/or other areas after the first wave of code has been open sourced in late Summer/ early Fall.
+#### Alloy Pilot: Shared Modeling in Alloy
+During the pilot phase, modelers collaborated on Alloy to build shared models. Modeling occurred in two workstreams: **FX Options** and **Commodities Reference Data**. As of late August, the batch of modeling work undertaken by the FX Options Working Group has concluded, the Commodities Reference Data Working Group is nearing completion of their roadmap, and we expect that further working groups may use Alloy for data modeling in these and/or other areas after the first wave of code has been open sourced in late September 2020.
 
 ### Suggest Modeling Use Cases
 If you have suggestions or ideas for modeling use cases for which Alloy may be appropriate, we'd love to hear your ideas -- send a note with your suggestion to the [Alloy General List](alloy@finos.org).
@@ -20,7 +20,7 @@ We welcome your help building out the documentation site. The process to make ch
 ### Propose Changes (Make Pull Requests) to Underlying PURE and Alloy Code (Phase 2)
 In phase 2, once the underlying code to PURE and Alloy have been open sourced into FINOS and source code made available to the public, the project will welcome pull requests to these code bases. 
 
-## Making Code (Including Documentation) Changes
+## How to make Code Changes (including Documentation Changes)
 ### Prerequisites
 #### Github Account
 Alloy makes use of both GitLab and GitHub infrastructure but, consistent with the FINOS infrastructure strategy, uses GitHub accounts as its default for authentication. All committers to FINOS repos, which includes modelers participating in the Alloy pilot working groups, must have a GitHub Account or - if they don't have one already - set up a GitHub account. 
