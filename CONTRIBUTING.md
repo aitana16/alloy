@@ -75,7 +75,7 @@ Suggesting topics you think should be included in this documentation site is a g
 ### Background: The Legend Pilot - Shared Modeling in Legend (January - September 2020)
 In January 2020, FINOS launched a pilot with FINOS member organizations interested in evaluating Legend-PURE/Legend. Modeling occurred on the FINOS hosted, shared version of Legend Studio in the public cloud, which was used by FINOS members to collaborate on Legend Studio by building extensions to the [ISDA Common Domain Model (CDM)](https://www.isda.org/2018/11/22/isda-cdm-factsheet/). Modeling occurred in two workstreams: **FX Options** and **Commodities Reference Data**, which concluded their work in September 2020. We expect that further working groups may use Legend for data modeling in these and/or other areas after the first wave of code has been open sourced in October 2020.
 
-## 2. Contribute Code [developers] 
+## 2. Contribute Code 
 ### Propose Changes (Make Pull Requests) to Underlying Legend-PURE and Legend Code
 The source code to Legend-PURE and Legend is available to the public and the project welcomes pull requests to these code bases.
 ### [Overall Code Contribution Workflow](contribute-code.md)
