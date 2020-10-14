@@ -4,8 +4,6 @@ title: Report bug
 sidebar_label: Report bug
 ---
 
-# Report a bug
-
 View the prerequisites and steps to report a bug by creating an issue in GitHub.
 
 ## Prerequisites
@@ -30,7 +28,8 @@ View the prerequisites and steps to report a bug by creating an issue in GitHub.
 
 
 ## More info
+## Next steps
 
-- [Contribute code](contribute-code.md)
-- [Contriubute documentation](contribute-documentation.md)
+- [Contribute to code](contribute-code.md)
+- [Contribute to documentation](contribute-documentation.md)
 - [Contribute to models](contribute-to-models.md)

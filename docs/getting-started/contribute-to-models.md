@@ -4,8 +4,6 @@ title: Contribute to models
 sidebar_label: Contribute to models
 ---
 
-# Contribute to models
-
 Use models to define your data and describe how they relate to each other.
 
 <!---Finos to provide conceptual data on open source model contribution here--->
@@ -16,6 +14,6 @@ If you have suggestions or ideas for modeling use cases where Legend might be ap
 
 ## Next steps
 
-- [Contribute code](contribute-code.md)
-- [Contribute documentation](contribute-documentation.md)
+- [Contribute to code](contribute-code.md)
+- [Contribute to documentation](contribute-documentation.md)
 - [Report a bug](report-bug.md)

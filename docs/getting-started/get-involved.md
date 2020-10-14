@@ -4,8 +4,6 @@ title: Get involved
 sidebar_label: Get involved
 ---
 
-# Get involved
-
 * [Legend General List](https://groups.google.com/a/finos.org/forum/#!forum/legend)
   * Subscribe w/ email to [legend+subscribe@finos.org](legend+subscribe@finos.org)
   * Post with email to [legend@finos.org](legend+subscribe@finos.org)
@@ -20,5 +18,5 @@ sidebar_label: Get involved
 ## More info
 
 - [Roles](roles.md)
-- [Review process](review-process.md)
-- [Sync changes beyond Legend](sync-changes-beyond-legend.md)
+- [Change review process](review-process.md)
+- [Terms of service](terms-of-service.md)

@@ -4,20 +4,18 @@ title: Create a model
 sidebar_label: Create a model
 ---
 
-# Create a model
+Use data models to describe your data and how they relate to each other.
 
-Use models to describe your data and how they relate to each other.
+## Define a Data Model Hierarchy
 
-## Define a model hierarchy
-
-Use model hierarchies to group models into packages.
+Use model hierarchies to group models into packages. 
 
 1. Click the **+** icon next to **project**.
 2. Click **Add a new package** to start a model hierarchy.
 
-    ![Define a model hierarchy](images/define-model-hierarchy.jpg)
+    ![Define a model hierarchy](../assets/define-model-hierarchy.jpg)
 
-## Define a new class
+## Define a New Class
 
 Use classes to define a business concept.
 
@@ -26,11 +24,11 @@ Use classes to define a business concept.
 
     Let's create a class called `Person`.  
 
-    ![Define a new class](images/define-new-class.JPG)
+    ![Define a new class](../assets/define-new-class.JPG)
 
     Studio displays a visualization of the class and a tabbed list of the possible model enrichments.
 
-## Add a property (primitive data type)
+## Add a Property (primitive data type)
 
 Use properties in a class to define attributes of the business concept.
 
@@ -39,9 +37,9 @@ Use properties in a class to define attributes of the business concept.
 
     Let's create a property called `firstName` of type `String` with [cardinality](legend-language.md#class) of 1.  
 
-    ![Add a property (primitive data type)](images/add-property-primitive.JPG)
+    ![Add a property (primitive data type)](../assets/add-property-primitive.JPG)
 
-## Add a derived property
+## Add a Derived Property
 
 Derived properties are properties defined using functions that can operate on other attributes in the data model.
 
@@ -54,9 +52,9 @@ Derived properties are properties defined using functions that can operate on ot
 4. Select a return [data type](legend-language.md#primitive-types) of `String` and [cardinality](legend-language.md#class) of 1.
 5. Press **F9** to compile the expression.
 
-    ![Add a derived property](images/add-derived-property.JPG)
+    ![Add a derived property](../assets/add-derived-property.JPG)
 
-## Add a constraint
+## Add a Constraint
 
 Use constraints to define a validation or condition on the model that's expected to be met. The return type for a constraint is **Boolean**.  
 
@@ -67,9 +65,9 @@ Use constraints to define a validation or condition on the model that's expected
 
 3. Press **F9** to compile the expression.
 
-    ![Add a constraint](images/add-constraint.JPG)
+    ![Add a constraint](../assets/add-constraint.JPG)
 
-## Add a tagged value
+## Add a Tagged Value
 
 Use tagged values to add context and values to your model. One type of tagged value is `doc`. The `doc` tag describes the class.
 
@@ -79,9 +77,9 @@ Use tagged values to add context and values to your model. One type of tagged va
 
     Let's add a `doc` tag to describe the **Person** class.
 
-    ![Add a tagged value](images/add-tagged-value.JPG)
+    ![Add a tagged value](../assets/add-tagged-value.JPG)
 
-## Add a stereotype
+## Add a Stereotype
 
 Use stereotypes to extend metadata information about a model. For example, you can annotate your model with labels like *legacy* or *deprecated*.
 
@@ -90,9 +88,9 @@ Use stereotypes to extend metadata information about a model. For example, you c
 
     Let's add a stereotype of type **access** and a value of **public**.
 
-    ![Add a stereotype](images/add-stereotype.JPG)
+    ![Add a stereotype](../assets/add-stereotype.JPG)
 
-## Create and add an enumeration
+## Create and Add an Enumeration
 
 A model attribute that has a finite list of values can be defined with an enumeration.
 
@@ -101,29 +99,29 @@ A model attribute that has a finite list of values can be defined with an enumer
 
     Let's create an enumeration called **CompanyType** with the values **LLC** and **Corporation**.
 
-    ![Create and add an enumeration](images/create-and-add-enumeration.JPG)
+    ![Create and add an enumeration](../assets/create-and-add-enumeration.JPG)
 
 3. Create a new class called **Firm** with a property named **type**.
 4. Select **CompanyType** for the property type and a [cardinality](legend-language.md#class) of 1.
 
-    ![Select property type and cardinality](images/select-property-type-cardinality.JPG)
+    ![Select property type and cardinality](../assets/select-property-type-cardinality.JPG)
 
-## Add a super type
+## Add a Super Type
 
-Add a super type to the model to show a relationship between classes or business concepts.
+Add a Super Type to the model to show a relationship between classes or business concepts.
 
 Let's create a new class called **LegalEntity**.  
 
-![Add a super type](images/add-super-type.JPG)
+![Add a super type](../assets/add-super-type.JPG)
 
 1. Moving back to the **Firm** class, go to the **Super Types** tab and click the **+** icon.
 2. Select the **LegalEntity** class from the dropdown.
 
     The model visualization on the left now shows the **LegalEntity** class as a super type of **Firm**.
 
-    ![Add a super type](images/add-super-type-2.JPG)
+    ![Add a super type](../assets/add-super-type-2.JPG)
 
-## Add a property (non-primitive data type)
+## Add a Property (non-primitive data type)
 
 Create a relationship between the **Person** and **Firm** classes.
 
@@ -132,7 +130,7 @@ Create a relationship between the **Person** and **Firm** classes.
     - Type: **Person**
     - Cardinality: **1..**
 
-    ![Add a Property (non-primitive data type)](images/add-property-non-primitive.JPG)
+    ![Add a Property (non-primitive data type)](../assets/add-property-non-primitive.JPG)
 
 ## Next steps
 

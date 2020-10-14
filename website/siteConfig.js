@@ -59,7 +59,7 @@ const siteConfig = {
   },
 
   stylesheets: [
-    "https://fonts.googleapis.com/css?family=Merriweather:400,500,700,900|Roboto+Condensed:400,500,700,900|Source+Code+Pro:400,500,700,900&display=swap",
+    "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,500,700,900|Source+Code+Pro:400,500,700,900&display=swap",
   ],
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -71,11 +71,11 @@ const siteConfig = {
   cleanUrl: true,
 
   wrapPagesHTML: true,
-  docsSideNavCollapsible: false,
+  docsSideNavCollapsible: true,
 
   // TODO - Open Graph and Twitter card images.
-  // ogImage: 'assets/todo-logo.png', /* change to program/project icon + wordmark logo */
-  // twitterImage: 'assets/todo-logo.png', /* change to program/project icon + wordmark logo */
+  // ogImage: '../assets/todo-logo.png', /* change to program/project icon + wordmark logo */
+  // twitterImage: '../assets/todo-logo.png', /* change to program/project icon + wordmark logo */
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
