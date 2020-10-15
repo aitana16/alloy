@@ -1,6 +1,7 @@
 {
   "docs": {
-    "Getting started": [
+    "Getting Started": [
+      "getting-started/installation-guide",
       "getting-started/create-workspace",
       "getting-started/create-model",
       "getting-started/create-diagram",
@@ -10,11 +11,9 @@
       "getting-started/review-and-commit-changes"
     ],
     "Language": [
+      "getting-started/legend-language",
       "getting-started/released-functions",
       "getting-started/upcoming-functions"
-    ], 
-    "Roadmap": [
-      "getting-started/roadmap"
     ],
     "Contribute": [
       "getting-started/contribute-code",
@@ -23,12 +22,8 @@
       "getting-started/report-bug",
       "getting-started/get-involved"
     ],
-    "Collaborative Modeling Governance": [
-      "getting-started/roles",
-      "getting-started/review-process"
-    ],
     "Legal": [
-    "getting-started/terms-of-service"
+      "getting-started/terms-of-service"
     ]
   }
 }
